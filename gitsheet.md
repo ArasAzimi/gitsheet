@@ -104,12 +104,16 @@ NOTE: On windows use `eval $(ssh-agent -s)` instead
 > `git push --delete origin tagname` to remove tag from remote repo  
 > `git tag --delete tagname` to remove tag locally OR git tag -d tagname  
 
-
-
 #### Amend a commit: Modifying an already committed change
 > `git commit --amend` in the opened window modify the commit message and save  
 > Push the amended commit to emote: `git push --force origin branch_name`  
 > To amend last commit without modifying the commit message: `git commit --amend --no-edit`  
+
+#### rebasing:
+> To rebase to the last commit `git rebase -i HEAD~1`
+> Once the editor opened, delete the line starting with "pick" and save exit i.e., `:wq`. This line should also show the commit message.
+> Verify the local rebase by `git log -2` Last commit should be gone
+> Push the changes to remote by `git push origin branch-name --force`. It is assumed that the right permissions for the branch exists for the user.
 
 #### Syncing fork
 * To sync a fork with the remote use this [link](https://help.github.com/articles/syncing-a-fork/) from github help
