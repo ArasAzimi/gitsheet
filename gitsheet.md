@@ -106,26 +106,23 @@ NOTE: On windows use `eval $(ssh-agent -s)` instead
 
 
 
-#### Amend a commit: Modifiying an already commit change
+#### Amend a commit: Modifying an already committed change
 > `git commit --amend` in the opened window modify the commit message and save  
-> Push the ammended commit to emote: `git push --force origin branch_name`  
-> To ammend last commit without modifying the commit message: `git commit --amend --no-edit`  
+> Push the amended commit to emote: `git push --force origin branch_name`  
+> To amend last commit without modifying the commit message: `git commit --amend --no-edit`  
 
 #### Syncing fork
 * To sync a fork with the remote use this [link](https://help.github.com/articles/syncing-a-fork/) from github help
 
-#### My faviorate aliases
-> To use these aliases, add them to the .gitconfig file and to use them simply do `git alias_key` i.e., `git st` for `git status`
-
-#### My faviorate aliases
+#### My favorite aliases
 > To use these aliases, add them to the .gitconfig file and to use them simply do `git alias_key` i.e., `git st` for `git status`
 
 [alias]  
 &emsp; st = status  
 &emsp; co = checkout  
 &emsp; br = branch  
-&emsp;  ci = commit  
-&emsp;  unstage = 'reset HEAD --'  
+&emsp; ci = commit  
+&emsp; unstage = 'reset HEAD --'  
 &emsp; visual = !gitk  
 
 &emsp; lp1= "log --pretty=oneline"  
