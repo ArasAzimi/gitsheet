@@ -125,13 +125,13 @@ NOTE: On windows use `eval $(ssh-agent -s)` instead
 &emsp; st = status  
 &emsp; co = checkout  
 &emsp; br = branch  
-&emsp; rh= "reset --hard"
-&emsp; cb= "branch --show-current" # 
-&emsp; cm = commit -m # Commit with message 
-&emsp; cma = cma = "commit --author 'Aras Azimi <aras.azimi@gmail.com>' -m" # Commit with message and a default author 
-&emsp; unstage = 'reset HEAD --'  
+&emsp; rh= "reset --hard"  
+&emsp; cb= "branch --show-current" 
+&emsp; cm = "commit -m" # Commit with message  
+&emsp; cma = cma = "commit --author 'Aras Azimi <aras.azimi@gmail.com>' -m" # Commit with message and a default author  
+&emsp; unstage = "reset HEAD --"  
 &emsp; visual = !gitk  
-&emsp; cln = clean -f -dx # Use with caution
+&emsp; cln = "clean -f -dx" # Use with caution  
 
 &emsp; lp1= "log --pretty=oneline"  
 &emsp; lp2= "log --oneline --graph --color --all --decorate"
