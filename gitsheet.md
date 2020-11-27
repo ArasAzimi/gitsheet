@@ -128,7 +128,7 @@ NOTE: On windows use `eval $(ssh-agent -s)` instead
 &emsp; rh= "reset --hard"  
 &emsp; cb= "branch --show-current"  
 &emsp; cm = "commit -m" # Commit with message  
-&emsp; cma = "commit --author 'Aras Azimi <aras.azimi@gmail.com>' -m" # Commit with message and a default author  
+&emsp; cma = "commit --author 'YOUR NAME <YOUR E-MAIL>' -m" # Commit with message and a default author  
 &emsp; unstage = "reset HEAD --"  
 &emsp; visual = !gitk  
 &emsp; cln = "clean -f -dx" # Use with caution  
