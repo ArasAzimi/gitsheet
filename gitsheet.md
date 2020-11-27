@@ -126,7 +126,7 @@ NOTE: On windows use `eval $(ssh-agent -s)` instead
 &emsp; co = checkout  
 &emsp; br = branch  
 &emsp; rh= "reset --hard"  
-&emsp; cb= "branch --show-current" 
+&emsp; cb= "branch --show-current"  
 &emsp; cm = "commit -m" # Commit with message  
 &emsp; cma = cma = "commit --author 'Aras Azimi <aras.azimi@gmail.com>' -m" # Commit with message and a default author  
 &emsp; unstage = "reset HEAD --"  
